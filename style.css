@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+header{
+    background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 88%), url(./img/1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: top;
+}
+header h5{
+    background: #5924EC;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 38px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+header h5 a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+header h5 a:hover{
+    text-decoration: none;
+    color: #5924EC;
+    background: white;
+}
+header ul{
+    text-align: right;
+    margin-top: 30px;
+}
+header ul li{
+    display: inline-block;
+    padding: 10px;
+}
+header ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+header ul li a:hover{
+    text-decoration: none;
+    color: #5924EC;
+}
+.meet{
+    margin-top: 150px;
+    position: absolute;
+    top: -650px;
+}
+.meet h2{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.meet p{
+    color: white;
+    margin-top: 20px;
+}
+.meet a{
+    display: block;
+    color: white;
+    background: #5924EC;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.destiny{
+    margin: 100px 0;
+    text-align: center;
+}
+.destiny h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.destiny p{
+    padding: 10px 190px;
+    color: #49498F;
+}
+.built{
+    text-align: center;
+}
+.built h5{
+    font-weight: bold;
+    margin: 25px 0;
+}
+.built p{
+    color: #49498F;
+    padding: 0 35px 100px;
+}
+.sec_img{
+    background: #F3F3F3;
+}
+.image_5{
+    margin: 100px 0 50px;
+}
+.designed{
+    margin: 100px 0 50px;
+}
+.designed h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.designed p{
+    padding: 10px 50px 5px 0;
+}
+.designed li{
+    list-style: none;
+    font-size: 12px;
+}
+.designed i{
+    padding-right: 10px;
+}
+.designed a{
+    display: block;
+    color: white;
+    background: #5924EC;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    margin-top: 25px;
+}
+.designed a:hover{
+    border: 3px solid #5924EC;
+    color: #5924EC;
+    background: #F3F3F3;
+}
+#sec_img{
+    padding-bottom: 100px;
+}
+.image_man{
+    text-align: center;
+    margin: 120px 0 80px;
+}
+.image_man img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+}
+.image_man p{
+    padding: 0 100px 10px;
+    color: #49498F;
+}
+.image_man h5{
+    font-size: 20px;
+}
+.image_man li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    color: #FF8000;
+}
+.access{
+  background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 88%), url(./img/image.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;  
+    padding: 100px 0 100px 100px;
+}
+.access h2{
+    color: white;
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.access h6{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.access p{
+    padding: 20px 100px 10px 0;
+    color: white;
+    font-weight: 100;
+}
+.social_icons{
+    margin: 100px 0 80px;
+    text-align: center;
+}
+.social_icons i{
+    font-size: 35px;
+    color: #5924EC;
+}
+.social_icons h2{
+    margin: 20px 0;
+}
+.baskit{
+    background: #F3F3F3;
+}
+.pickup{
+    text-align: center;
+    padding: 100px 0 80px;
+}
+.pickup h3{
+    font-weight: bold;
+}
+.pickup p{
+    padding: 10px 290px 0;
+}
+.baskit_icon{
+    text-align: center;
+    margin: 0 80px 100px;
+    padding: 100px 50px 50px;
+    box-shadow: 0 5px 25px #a5a5a5e3;
+    transition: 1.2s all;
+}
+.baskit_icon:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 40px #a5a5a5e3;
+    border-radius: 5px;
+}
+.icon_b{
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    background: #AF7BAE;
+    position: relative;
+    margin: 0 auto 50px;
+}
+.fa-shopping-cart:before {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.baskit_icon i{
+    font-size: 28px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border: 3px solid black;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+}
+.baskit_icon h5{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.baskit_icon p{
+    padding: 10px 30px;
+}
+.baskit_icon h6{
+    margin-bottom: 20px;
+}
+.baskit_icon a{
+    display: block;
+    color: white;
+    background: #5924EC;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    margin: 60px auto 0px;
+
+}
+.baskit_icon a:hover{
+    border: 3px solid #5924EC;
+    color: #5924EC;
+    background: #F3F3F3;
+}
+.image_6{
+    margin: 50px 0;
+}
+.still{
+    background: #F3F3F3;
+}
+.still_confused{
+    text-align: center;
+    padding: 100px 0;
+}
+.still_confused h2{
+    font-weight: bold;
+}
+.still_confused p{
+    padding: 20px 230px;
+}
+.still_confused input{
+    border: none;
+    outline: none;
+}
+.still_confused input:first-child {
+    padding: 10px 150px 10px 20px;
+    border-radius: 5px 0 0 5px;
+}
+.still_confused input:last-child{
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    background: #5924EC;
+    color: white;
+    position: relative;
+    right: 4px;
+}
+footer{
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+.de{
+    background: #5924EC;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: bold;
+}
+.de:hover{
+    text-decoration: none;
+    background: white;
+    border: 3px solid #5924EC;
+    color: #5924EC;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px 0;
+}
+footer ul li a{
+    color: rgba(0, 0, 0, 0.582);
+    text-decoration: none;
+    font-weight: bold;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: #5924EC;
+}
+footer p{
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 16px;
+}
+footer .fa-arrow-circle-up:before {
+    font-size: 50px;
+    position: absolute;
+    right: -170px;
+    color: #5924EC;
+    bottom: -35px;
+}
